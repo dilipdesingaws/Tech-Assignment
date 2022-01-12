@@ -13,8 +13,8 @@ output "aws_elb" {
   value       = aws_lb.external-elb.id
 }
  
-output "aws_elb" {
-  description = "id of aws_lb"
+output "aws_elb_dns_name" {
+  description = "id of aws_lb dns name"
   value       = aws_lb.external-elb.dns_name
 }
 
