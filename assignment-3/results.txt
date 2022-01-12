@@ -1,0 +1,21 @@
+object =  {'a': {'b': {'c': 'd'}}}
+key =  a/b/c
+value =  d
+object =  {'a': {'b': {'x': 'd', 'z': 'r'}}}
+key =  a/b/z
+value =  r
+object =  {'a': {'b': {'x': 'd'}}}
+key =  a/b/c
+key not found
+object =  {'a': {'b': {'x': 'd'}}}
+key =  a/b
+key not found
+object =  {'a': {'b': {'x': 'd', 'z': 'r'}}}
+key =  a/b/
+key not found
+object =  {'a': {'b': {'x': 'd', 'z': 'r'}}}
+key =  a/b/z
+value =  r
+object =  {}
+key =  a/b/z
+key not found
