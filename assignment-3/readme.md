@@ -1,5 +1,5 @@
 # Usage
- * Download python.py file form the repository. 
+ * Download script.py file from this repository. 
  * Run the pyton script as follows  :  python script.py
  * Result will be displayed in the screen.
 
