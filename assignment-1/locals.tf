@@ -22,16 +22,6 @@ locals {
   }
 
 
-  default_domain_https_config_list = {
-    dev = {
-      default_domain_https_config-1 = {
-        default_endpoint_name = "DefaultCustomDomain"
-      }
-    }
-    staging = []
-    prod    = []
-  }
-
   aws_instance = lookup(local.aws_instance_list, local.env, null)
 }
 
