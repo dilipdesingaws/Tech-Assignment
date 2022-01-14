@@ -1,5 +1,6 @@
 module "kpmg" {
   source                   = "./3-tier-module"
+  # aws_instance            = local.aws_instance           # This can be used to make a dynamic reference resouce in "locals.tf" file. 
   ami_id                   = "ami-0d5eff06f840b45e9"
   instance_type            = "t2.micro"
   availability_zone_1      = "us-east-1a"
